@@ -1,0 +1,19 @@
+<div>
+  <mat-card>
+    <!-- <form [formGroup]='registerForm' (ngSubmit)='onSubmit()'> -->
+
+      <mat-form-field>
+        <input matInput placeholder="Email" [(ngModel)]="loginData.email">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput type="password" placeholder="Password" [(ngModel)]="loginData.password">
+      </mat-form-field>
+
+      <br>
+      <!-- <span *ngIf="registerForm.errors?.mismatchedFields">Please make sure that passwords match</span> -->
+      <br>
+      <button mat-raised-button (click)='login()'>Log In</button>
+    <!-- </form> -->
+  </mat-card>
+</div>

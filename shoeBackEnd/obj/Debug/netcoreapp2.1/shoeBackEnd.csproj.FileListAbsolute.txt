@@ -1,0 +1,14 @@
+/Users/DonDavid/Documents/Personal_Coding/Shoes/shoeBackEnd/bin/Debug/netcoreapp2.1/shoeBackEnd.deps.json
+/Users/DonDavid/Documents/Personal_Coding/Shoes/shoeBackEnd/bin/Debug/netcoreapp2.1/shoeBackEnd.runtimeconfig.json
+/Users/DonDavid/Documents/Personal_Coding/Shoes/shoeBackEnd/bin/Debug/netcoreapp2.1/shoeBackEnd.runtimeconfig.dev.json
+/Users/DonDavid/Documents/Personal_Coding/Shoes/shoeBackEnd/bin/Debug/netcoreapp2.1/shoeBackEnd.dll
+/Users/DonDavid/Documents/Personal_Coding/Shoes/shoeBackEnd/bin/Debug/netcoreapp2.1/shoeBackEnd.pdb
+/Users/DonDavid/Documents/Personal_Coding/Shoes/shoeBackEnd/obj/Debug/netcoreapp2.1/shoeBackEnd.csprojAssemblyReference.cache
+/Users/DonDavid/Documents/Personal_Coding/Shoes/shoeBackEnd/obj/Debug/netcoreapp2.1/shoeBackEnd.csproj.CoreCompileInputs.cache
+/Users/DonDavid/Documents/Personal_Coding/Shoes/shoeBackEnd/obj/Debug/netcoreapp2.1/shoeBackEnd.RazorAssemblyInfo.cache
+/Users/DonDavid/Documents/Personal_Coding/Shoes/shoeBackEnd/obj/Debug/netcoreapp2.1/shoeBackEnd.RazorAssemblyInfo.cs
+/Users/DonDavid/Documents/Personal_Coding/Shoes/shoeBackEnd/obj/Debug/netcoreapp2.1/shoeBackEnd.AssemblyInfoInputs.cache
+/Users/DonDavid/Documents/Personal_Coding/Shoes/shoeBackEnd/obj/Debug/netcoreapp2.1/shoeBackEnd.AssemblyInfo.cs
+/Users/DonDavid/Documents/Personal_Coding/Shoes/shoeBackEnd/obj/Debug/netcoreapp2.1/shoeBackEnd.RazorTargetAssemblyInfo.cache
+/Users/DonDavid/Documents/Personal_Coding/Shoes/shoeBackEnd/obj/Debug/netcoreapp2.1/shoeBackEnd.dll
+/Users/DonDavid/Documents/Personal_Coding/Shoes/shoeBackEnd/obj/Debug/netcoreapp2.1/shoeBackEnd.pdb

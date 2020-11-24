@@ -1,0 +1,20 @@
+<h1>{{oldUser.firstName}}</h1>
+<h3>Role {{oldUser.role}}</h3>
+
+<mat-card>
+  <form [formGroup]='newUser' (ngSubmit)='onSubmit()'>
+    <mat-form-field>
+      <input matInput placeholder="First Name" formControlName='firstName' value="{{oldUser.firstName}}">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Last Name" formControlName='lastName' value="{{oldUser.lastName}}">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Email" formControlName='email' value="{{oldUser.email}}">
+    </mat-form-field>
+    <br>
+    <button mat-raised-button>Update</button>
+  </form>
+</mat-card>

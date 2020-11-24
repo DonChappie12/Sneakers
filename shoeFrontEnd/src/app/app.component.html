@@ -1,0 +1,16 @@
+<h1>{{ title }} app is running!</h1>
+
+<nav>
+  <a mat-button [routerLink]="['/']">Home</a>
+  <a mat-button [routerLink]="['/shoes']">Shoes</a>
+  <span style='flex: 1 1 auto'></span>
+  <a *ngIf="!userAuthenticated()" mat-button [routerLink]="['/login']">Login</a>
+  <a *ngIf="!userAuthenticated()" mat-button [routerLink]="['/register']">Register</a>
+  <a *ngIf="userAuthenticated()" mat-button [routerLink]="['/allUsers']">List of Users</a>
+  <a *ngIf="userAuthenticated()" mat-button [routerLink]="['/newUser']">Create a user</a>
+  <a *ngIf="userAuthenticated()" mat-button [routerLink]="['/newSneaker']">Create a Sneaker</a>
+  <a *ngIf="userAuthenticated()" mat-button [routerLink]="['/edit']">Welcome {{userName()}}</a>
+  <a *ngIf="userAuthenticated()" mat-button (click)="userLoggingOut()">Logout</a>
+</nav>
+
+<router-outlet></router-outlet>

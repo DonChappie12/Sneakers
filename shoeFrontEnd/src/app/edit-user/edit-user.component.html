@@ -1,0 +1,21 @@
+<mat-card>
+  <form [formGroup]='newUser' (ngSubmit)='onSubmit()'>
+    <mat-form-field>
+      <input matInput placeholder="First Name" formControlName='firstName' value="{{user.firstName}}">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Last Name" formControlName='lastName' value="{{user.lastName}}">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Email" formControlName='email' value="{{user.email}}">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Role" formControlName='role' value="{{user.role}}">
+    </mat-form-field>
+    <br>
+    <button mat-raised-button>Update</button>
+  </form>
+</mat-card>

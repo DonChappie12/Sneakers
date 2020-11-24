@@ -1,0 +1,29 @@
+<div>
+  <mat-card>
+    <form [formGroup]='sneakerForm' (ngSubmit)='onSubmit()'>
+      <mat-form-field>
+        <input matInput placeholder="Name of Shoe" formControlName='name'>
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Brand Name" formControlName='brand'>
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Price" formControlName='price'>
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Sex" formControlName='sex'>
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Description" formControlName='description'>
+      </mat-form-field>
+      <br>
+      <!-- <span *ngIf="registerForm.errors?.mismatchedFields">Please make sure that passwords match</span> -->
+      <br>
+      <button mat-raised-button>Create Sneaker</button>
+    </form>
+  </mat-card>
+</div>
